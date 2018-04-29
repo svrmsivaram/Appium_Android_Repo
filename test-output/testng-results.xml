@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="46536" started-at="2017-02-03T10:19:05Z" finished-at="2017-02-03T10:19:51Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="46536" started-at="2017-02-03T10:19:05Z" finished-at="2017-02-03T10:19:51Z">
+      <class name="testcases.TC01_Login">
+        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:testcases.TC01_Login@e2abd]" name="beforeSuite" is-config="true" duration-ms="299" started-at="2017-02-03T15:49:04Z" finished-at="2017-02-03T15:49:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:testcases.TC01_Login@e2abd]" name="beforeTest" is-config="true" duration-ms="0" started-at="2017-02-03T15:49:05Z" finished-at="2017-02-03T15:49:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="setValues()[pri:0, instance:testcases.TC01_Login@e2abd]" name="setValues" is-config="true" duration-ms="0" started-at="2017-02-03T15:49:05Z" finished-at="2017-02-03T15:49:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setValues -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:testcases.TC01_Login@e2abd]" name="beforeMethod" is-config="true" duration-ms="4" started-at="2017-02-03T15:49:06Z" finished-at="2017-02-03T15:49:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="login(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.TC01_Login@e2abd]" name="login" duration-ms="45660" started-at="2017-02-03T15:49:06Z" data-provider="fetchData" finished-at="2017-02-03T15:49:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TA39400OCM]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[sakthivel@testleaf.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Leaf@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:testcases.TC01_Login@e2abd]" name="afterMethod" is-config="true" duration-ms="2" started-at="2017-02-03T15:49:51Z" finished-at="2017-02-03T15:49:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:testcases.TC01_Login@e2abd]" name="afterTest" is-config="true" duration-ms="0" started-at="2017-02-03T15:49:51Z" finished-at="2017-02-03T15:49:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="afterSuite()[pri:0, instance:testcases.TC01_Login@e2abd]" name="afterSuite" is-config="true" duration-ms="375" started-at="2017-02-03T15:49:51Z" finished-at="2017-02-03T15:49:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- testcases.TC01_Login -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
